@@ -1,1 +1,6 @@
-.large { font-size: 15vw; color: #545;}
+/* Page-3 */
+.large {
+    font-size: calc(10 * var(--vmin));
+    color: #545454;
+}
+  

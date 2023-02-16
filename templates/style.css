@@ -33,7 +33,7 @@ html, body {
  
   font-family: 'EB Garamond', serif; /* TODO: Feature => Apply Garamond font-family iff the template being used is NOVEL*/
 }
-/* Novel Template Balancer STARTS HERE: */
+/* Balanced Novel Template STARTS here: */
 .leaf {
   height: calc(100 * var(--vmax));
   width: calc(100 * var(--vmin));
@@ -275,38 +275,4 @@ hr {
  /* A break of one line only. */
   border-bottom: calc(0.1 * var(--vmin)) dashed rgba(0, 0, 0, 0.3);
 }
-/* Novel template balancer ENDS HERE: */
-
-
-/* Publisher specific & Metadata Page 1-9: */
-/* Page-3 */
-.large {
-  font-size: calc(10 * var(--vmin));
-  color: #545;
-}
-/* Page - 4 */
-/* Page - 5 */
-.inner-face {
-  height: 80%;
-}
-.inner-face h1 {
-  font-size: calc(6 * var(--vmin));
-  margin: 0;
-  padding: 0;
-}
-.inner-face h2 {
-  font-style: calc(4 * var(--vmin));
-  margin: 0;
-  padding: 0;
-}
-.footnote {
-  text-align: center;
-  height: 20%;
-  width: 100%;
-  font-size: calc(2 * var(--vmin));
-  color: black;
-}
-.footnote img {
-  display: inline-block !important;
-  margin: 0 !important;
-}
+/* Balanced Novel Template ENDS HERE: */
