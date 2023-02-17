@@ -239,7 +239,7 @@ hr.section::after {
   content: "";
 }
 hr.section::before {
-  content: "❦";
+  content: "⤝◈⤞";
   color: #000;
 }
 hr.balanced {
@@ -265,7 +265,7 @@ hr.chapter::after {
   content: " ";
 }
 hr.chapter::before {
-  content: "❦";
+  content: "⤝◈◈◈⤞";
   color: #000;
 }
 hr {
