@@ -285,7 +285,7 @@ hr {
   text-align: center;
   margin: calc((4 * var(--vmin) * 1.5) / 2) 0;
   /* A break of one line only. */
-  border-bottom: calc(0.1 * var(--vmin)) dashed rgba(0, 0, 50%, 0.5);
+  border-bottom: calc(0.1 * var(--vmin)) dashed hsla(0, 0%, 50%, 0.5);
 }
 
 /* Accessibility specific media queries go below. */
