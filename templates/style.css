@@ -179,7 +179,7 @@ img {
   font-size: 80%;
 }
 blockquote {
-  text-align: center;
+  text-align: justify;
   font-style: italic;
   position: relative;
   quotes: "\201C""\201D""\2018""\2019";
@@ -252,7 +252,7 @@ hr.section::after {
 }
 hr.section::before {
   content: "⤝◈⤞";
-  color: #000;
+  color: #8e8e8e;
 }
 hr.balanced {
   border: 0;
@@ -265,7 +265,7 @@ hr.balanced::after {
 }
 hr.balanced::before {
   content: "☯";
-  color: #000;
+  color: #8e8e8e;
 }
 hr.chapter {
   border: 0;
@@ -278,22 +278,32 @@ hr.chapter::after {
 }
 hr.chapter::before {
   content: "⤝◈◈◈⤞";
-  color: #000;
+  color: #8e8e8e;
 }
 hr {
   border: 0;
   text-align: center;
   margin: calc((4 * var(--vmin) * 1.5) / 2) 0;
   /* A break of one line only. */
-  border-bottom: calc(0.1 * var(--vmin)) dashed rgba(0, 0, 0, 0.3);
+  border-bottom: calc(0.1 * var(--vmin)) dashed rgba(0, 0, 50%, 0.5);
 }
 
 /* Accessibility specific media queries go below. */
 
 /* 1. Dark mode (or light) depending on requirement. */
 @media screen and (prefers-color-scheme: dark) {
-  body {
+  body,
+  html {
     background-color: #343434;
+    color: #fff;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: #fff;
   }
 }
