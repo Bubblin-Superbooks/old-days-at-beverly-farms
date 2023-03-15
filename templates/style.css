@@ -25,9 +25,9 @@
 /* FACT: div.parchment element is equal to the html, body { } elements of an iframed page. */
 html,
 body {
-  background: white;
+  background-color: white;
   font-size: calc(4 * var(--vmin));
-  line-height: calc(4 * var(--vmin) * 1.5);
+  line-height: calc(4 * var(--vmax)); /* line-height: 1443:1115 of font-size. */
   font-style: normal;
   font-synthesis: none;
   font-stretch: ultra-condensed;
@@ -37,6 +37,7 @@ body {
 
   font-family: "EB Garamond", serif;
   /* TODO: Feature => Apply Garamond font-family iff the template being used is NOVEL*/
+  /* text-wrap: balance; Experimental property under consideration. */
 }
 
 /* Balanced Novel Template STARTS here: */
@@ -49,6 +50,7 @@ body {
 .inner {
   width: 85%;
   height: 85%;
+  background-color: aliceblue;
 }
 
 p {
@@ -56,11 +58,13 @@ p {
   font-size: calc(4 * var(--vmin));
   text-indent: calc(5 * var(--vmin));
   margin: 0 0 0 0;
+  word-wrap: break-word;
+  /* background-color: hsla(0, 100%, 50%, 0.5); */
 }
 
 p.start-chapter {
   text-indent: 0;
-  margin: calc(5 * 4 * var(--vmin) * 1.5 - 2px) auto 0;
+  margin: calc(5 * 4 * var(--vmin) * 1.5) auto 0;
 }
 
 p.start-chapter::first-letter {
@@ -111,41 +115,49 @@ h6 {
 h1 {
   width: 100%;
   text-align: center;
-  line-height: calc(2 * 4 * var(--vmin) * 1.5);
+  /* line-height: calc(2 * 4 * var(--vmin) * 1.5); */
+  line-height: 2;
   font-size: calc(8 * var(--vmin));
 }
 
 h2 {
   width: 100%;
   text-align: center;
-  line-height: calc(2 * 4 * var(--vmin) * 1.5);
+  /* line-height: calc(2 * 4 * var(--vmin) * 1.5); */
+  line-height: 2;
   font-size: calc(6 * var(--vmin));
 }
 
 h3 {
   width: 100%;
   text-align: center;
-  line-height: calc(2 * 4 * var(--vmin) * 1.5);
+  /* line-height: calc(2 * 4 * var(--vmin) * 1.5); */
+  line-height: 1.5;
   font-size: calc(5 * var(--vmin));
+  background-color: royalblue;
 }
 
 h4 {
   width: 100%;
   text-align: center;
-  line-height: calc(2 * 4 * var(--vmin) * 1.5);
+  /* line-height: calc(2 * 4 * var(--vmin) * 1.5); */
+  line-height: 1.5;
   font-weight: 100;
   font-size: calc(4 * var(--vmin));
+  background-color: antiquewhite;
 }
 
 h5 {
   width: 100%;
   text-align: center;
-  line-height: calc(1 * 4 * var(--vmin) * 1.5);
+  /* line-height: calc(1 * 4 * var(--vmin) * 1.5); */
+  line-height: 1;
   font-size: calc(4 * var(--vmin));
 }
 
 h6 {
-  line-height: calc(1 * 4 * var(--vmin) * 1.5);
+  /* line-height: calc(1 * 4 * var(--vmin) * 1.5); */
+  line-height: 1;
   font-size: calc(4 * var(--vmin));
 }
 

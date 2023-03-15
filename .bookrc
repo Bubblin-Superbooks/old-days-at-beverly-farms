@@ -2,6 +2,7 @@
   "name": "Old Days at Beverly Farms",
   "type": "novel",
   "has_page_numbers": true,
+  "start_page": 12,
   "mode": {
     "HTML": "html",
     "CSS": "css",
