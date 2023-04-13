@@ -1,29 +1,5 @@
 [
   {
-    "tag": "img",
-    "innerHtml": "https://raw.githubusercontent.com/marvindanig/old-days-at-beverly-farms/master/assets/images/i002.jpg"
-  },
-  {
-    "tag": "p",
-    "innerHtml": "<em>Door of the Larcom House where Mrs. Dow lived</em>"
-  },
-  {
-    "tag": "img",
-    "innerHtml": "https://raw.githubusercontent.com/marvindanig/old-days-at-beverly-farms/master/assets/images/titlepage.jpg"
-  },
-  {
-    "tag": "hr",
-    "innerHtml": ""
-  },
-  {
-    "tag": "img",
-    "innerHtml": "https://raw.githubusercontent.com/marvindanig/old-days-at-beverly-farms/master/assets/images/logo.jpg"
-  },
-  {
-    "tag": "hr",
-    "innerHtml": ""
-  },
-  {
     "tag": "h3",
     "innerHtml": "Preface"
   },
@@ -501,7 +477,7 @@
   },
   {
     "tag": "img",
-    "innerHtml": "https://raw.githubusercontent.com/marvindanig/old-days-at-beverly-farms/master/assets/images/i063.jpg"
+    "innerHtml": "[\"https://raw.githubusercontent.com/marvindanig/old-days-at-beverly-farms/master/assets/images/i063.jpg\", \"\", \"From a Daguerreotype taken about 1859\"]"
   },
   {
     "tag": "p",
@@ -541,7 +517,7 @@
   },
   {
     "tag": "img",
-    "innerHtml": "https://raw.githubusercontent.com/marvindanig/old-days-at-beverly-farms/master/assets/images/i071.jpg"
+    "innerHtml": "[\"https://raw.githubusercontent.com/marvindanig/old-days-at-beverly-farms/master/assets/images/i071.jpg\", \"\", \"Head enlarged from a group taken about 1899\"]"
   },
   {
     "tag": "p",

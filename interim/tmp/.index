@@ -1,12 +1,12 @@
 {
-  "0": "<li><a class = \"page\" href=\"12\">Preface</a> <span class=\"flex\">12</span> </li>",
-  "1": "<li><a class = \"page\" href=\"15\">The Life Of Mary Larcom Dow</a> <span class=\"flex\">15</span> </li>",
-  "2": "<li><a class = \"page\" href=\"32\">Old Days At Beverly Farms</a> <span class=\"flex\">32</span> </li>",
-  "3": "<li><a class = \"page\" href=\"79\">Lucy Larcom—a Memory</a> <span class=\"flex\">79</span> </li>",
-  "4": "<li><a class = \"page\" href=\"79\">By Mary Larcom Dow</a> <span class=\"flex\">79</span> </li>",
-  "5": "<li><a class = \"page\" href=\"85\">Letters</a> <span class=\"flex\">85</span> </li>",
-  "6": "<li><a class = \"page\" href=\"89\">M.l.d.</a> <span class=\"flex\">89</span> </li>",
-  "7": "<li><a class = \"page\" href=\"97\">Extracts From Letters</a> <span class=\"flex\">97</span> </li>",
-  "8": "<li><a class = \"page\" href=\"99\">Appreciation By Sarah E. Miller</a> <span class=\"flex\">99</span> </li>",
-  "9": "<li><a class = \"page\" href=\"102\">Extracts From Letters Written To Mr. Dow</a> <span class=\"flex\">102</span> </li>"
+  "0": "<li>\n                              <a class = \"page\" href=\"12\">\n                                Preface\n                              </a>\n                              <span class=\"flex\">\n                                12\n                              </span>\n                            </li>",
+  "1": "<li>\n                              <a class = \"page\" href=\"14\">\n                                The Life Of Mary Larcom Dow\n                              </a>\n                              <span class=\"flex\">\n                                14\n                              </span>\n                            </li>",
+  "2": "<li>\n                              <a class = \"page\" href=\"29\">\n                                Old Days At Beverly Farms\n                              </a>\n                              <span class=\"flex\">\n                                29\n                              </span>\n                            </li>",
+  "3": "<li>\n                              <a class = \"page\" href=\"67\">\n                                Lucy Larcom—a Memory\n                              </a>\n                              <span class=\"flex\">\n                                67\n                              </span>\n                            </li>",
+  "4": "<li>\n                              <a class = \"page\" href=\"68\">\n                                By Mary Larcom Dow\n                              </a>\n                              <span class=\"flex\">\n                                68\n                              </span>\n                            </li>",
+  "5": "<li>\n                              <a class = \"page\" href=\"73\">\n                                Letters\n                              </a>\n                              <span class=\"flex\">\n                                73\n                              </span>\n                            </li>",
+  "6": "<li>\n                              <a class = \"page\" href=\"76\">\n                                M.l.d.\n                              </a>\n                              <span class=\"flex\">\n                                76\n                              </span>\n                            </li>",
+  "7": "<li>\n                              <a class = \"page\" href=\"83\">\n                                Extracts From Letters\n                              </a>\n                              <span class=\"flex\">\n                                83\n                              </span>\n                            </li>",
+  "8": "<li>\n                              <a class = \"page\" href=\"84\">\n                                Appreciation By Sarah E. Miller\n                              </a>\n                              <span class=\"flex\">\n                                84\n                              </span>\n                            </li>",
+  "9": "<li>\n                              <a class = \"page\" href=\"87\">\n                                Extracts From Letters Written To Mr. Dow\n                              </a>\n                              <span class=\"flex\">\n                                87\n                              </span>\n                            </li>"
 }

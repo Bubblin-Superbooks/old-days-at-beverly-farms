@@ -28,8 +28,10 @@
   overflow: unset;
   top: unset;
   left: unset;
+  /* Do not set the height or width on the `.overlay` class. 
+    This will affect image rendering during pagination.*/
   /* height: inherit; 
-  width: inherit; */ /* Never set the height or width on the `.overlay` class. */
+  width: inherit; */ 
   cursor: unset;
   z-index: unset;
   backdrop-filter: unset;
@@ -65,13 +67,14 @@ body {
 .inner {
   width: 85%;
   height: 88%;
+  /* background-color: aliceblue; */
 }
 
 /* word-wrap: break-word; */ /* Don't break at words because browser overkills. Use a span for long strings instead. */
 p {
   font-size: unset;
   font-size: calc(4 * var(--vmin));
-  text-indent: calc(5 * var(--vmin));
+  text-indent: calc(8 * var(--vmin));
   letter-spacing: calc(-1 / 100 * var(--vmin));
   word-spacing: calc(4 * var(--vmin)/var(--vmax)) !important;
   margin: 0 0 0 0;
@@ -92,6 +95,7 @@ _::-webkit-full-page-media, _:future, :root p {
 /* Supported on Safari but typescaling on Safari is still broken. Therefore, the hack below: */
 _::-webkit-full-page-media, _:future, p.stretch-last-line {
   font-size: calc(99/100 * 4 * var(--vmin));
+  text-align-last: auto;
 }
 
 /* Safari support @7.1+ */
@@ -125,16 +129,15 @@ _::-webkit-full-page-media, _:future, :root .small {
 
 p.start-chapter {
   text-indent: 0;
-  margin: calc(5 * 4 * var(--vmin) * 1.5) auto 0;
+  margin: calc(3 * 4 * var(--vmax) * 1.5) auto 0;
 }
 
 p.start-chapter::first-letter {
-  /* initial-letter: 2; */
-  margin: 0 calc(var(--vmin)) 0 0;
-  float: left;
-  font-size: calc(2 * 4 * var(--vmin) * 3 / 2);
-  line-height: calc(2 * 4 * var(--vmin) * 1.5 * 0.95);
   font-family: "Berkshire Swash", cursive;
+  font-size: calc(4 * 4 * var(--vmin));
+  padding: calc(6/10 * var(--vmin)) calc(3/10 * var(--vmin));
+  margin: 0 0 0 calc(6 * var(--vmin)) ;
+  float: left;  
 }
 
 /* Manual Typesetting Helper Classes */
@@ -255,7 +258,7 @@ img {
   font-size: 80%;
 }
 
-/* blockquote {
+blockquote {
   text-align: justify;
   font-style: italic;
   position: relative;
@@ -265,12 +268,15 @@ img {
   margin: 0 0;
   display: inline-block;
   width: 100%;
+  background-color: aquamarine;
 }
 
 blockquote p,
-blockquote em {
+blockquote em,
+blockquote cite {
   margin: 0 auto !important;
-} */
+  text-align: justify;
+}
 
 pre {
   white-space: pre-wrap;
