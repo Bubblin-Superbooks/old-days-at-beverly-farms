@@ -268,7 +268,6 @@ blockquote {
   margin: 0 0;
   display: inline-block;
   width: 100%;
-  background-color: aquamarine;
 }
 
 blockquote p,
@@ -276,6 +275,10 @@ blockquote em,
 blockquote cite {
   margin: 0 auto !important;
   text-align: justify;
+}
+
+blockquote.no-indent p {
+  text-indent: 0;
 }
 
 pre {
