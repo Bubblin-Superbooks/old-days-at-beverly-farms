@@ -21,7 +21,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "In examining the titles Mr. Samuel Vaughan found that Mrs. Dow’s great grandfather, Jonathan Larcom, did not sell his slaves. He was administrator of his father, David Larcom’s estate in 1775. In the appraisal, six slaves are mentioned by name, valued at �106 13s. 4d. but none are mentioned in the division. It appears that they became free when their master died. All slaves were considered free in Massachusetts when the State Constitution was adopted in 1780."
+    "innerHtml": "In examining the titles Mr. Samuel Vaughan found that Mrs. Dow’s great grandfather, Jonathan Larcom, did not sell his slaves. He was administrator of his father, David Larcom’s estate in 1775. In the appraisal, six slaves are mentioned by name, valued at £106 13s. 4d. but none are mentioned in the division. It appears that they became free when their master died. All slaves were considered free in Massachusetts when the State Constitution was adopted in 1780."
   },
   {
     "tag": "p",
@@ -321,7 +321,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "For instance, Miss Haven gave me the other day the appraisal of my great grandfather’s estate, that same David Larcom of slave times. He died in 1779 possessed of �899 sterling, all in real estate. I found in the appraisal and settlement among his children, that my old friend Mrs. Lee and I have probably a common ancestor, Jonathan Larcom. It amuses us, because we have never before found any trace of commingling blood. I fancy it would be pretty difficult to find any two old Beverly Farmites, who are not related. My principal pride in the old paper is that it sets forth, over the signature of the Judge of Probate in Ipswich, that a Larcom once was worth about $5,000! (His brother’s estate was appraised at �219 15s. 6d. Ed.)"
+    "innerHtml": "For instance, Miss Haven gave me the other day the appraisal of my great grandfather’s estate, that same David Larcom of slave times. He died in 1779 possessed of £899 sterling, all in real estate. I found in the appraisal and settlement among his children, that my old friend Mrs. Lee and I have probably a common ancestor, Jonathan Larcom. It amuses us, because we have never before found any trace of commingling blood. I fancy it would be pretty difficult to find any two old Beverly Farmites, who are not related. My principal pride in the old paper is that it sets forth, over the signature of the Judge of Probate in Ipswich, that a Larcom once was worth about $5,000! (His brother’s estate was appraised at £219 15s. 6d. Ed.)"
   },
   {
     "tag": "p",
@@ -481,15 +481,11 @@
   },
   {
     "tag": "p",
-    "innerHtml": "<em>From a Daguerreotype taken about 1859</em>"
-  },
-  {
-    "tag": "p",
     "innerHtml": "Over “t’other side,” as we called it, in the house now owned by Mr. J. S. Curtis, lived Uncle “Jimmy” Woodbury. He must have been a “character.” He was once very much troubled by rats in his barn. So he conceived a plan for getting rid of them at his neighbor’s expense. Uncle David Preston’s estate, where Miss Susan Amory’s house now stands, was diagonally opposite."
   },
   {
     "tag": "p",
-    "innerHtml": "Uncle “Jimmy” wrote a letter to the rats, in which he told them that in Uncle David’s barn was more corn and better corn than they were getting in his barn, and he strongly recommended that they move. Then Uncle Jimmy kept watch and on a beautiful moonlight night he had the satisfaction of beholding a long line of rodents with an old gray fellow as leader, crossing the road on their way to Uncle David’s. (I tell the story as it was told to me). Uncle Jimmy’s daughter, Mary, married Dr. Wyatt C. Boyden, for many years the skilful family physician of half the town. The fine public spirited Boydens of Beverly are her descendants."
+    "innerHtml": "Uncle “Jimmy” wrote a letter to the rats, in which he told them that in Uncle David’s barn was more corn and better corn than they were getting in his barn, and he strongly recommended that they move. Then Uncle Jimmy kept watch and on a beautiful moonlight night he had the satisfaction of beholding a long line of rodents with an old gray fellow as leader, crossing the road on their way to Uncle David’s. (I tell the story as it was told to me). Uncle Jimmy’s daughter, Mary, married Dr. Wyatt C. Boyden, for many years the skillful family physician of half the town. The fine public spirited Boydens of Beverly are her descendants."
   },
   {
     "tag": "p",
@@ -520,20 +516,8 @@
     "innerHtml": "[\"https://raw.githubusercontent.com/marvindanig/old-days-at-beverly-farms/master/assets/images/i071.jpg\", \"\", \"Head enlarged from a group taken about 1899\"]"
   },
   {
-    "tag": "p",
-    "innerHtml": "<em>Head enlarged from a group taken about 1899</em>"
-  },
-  {
     "tag": "h3",
-    "innerHtml": "Lucy Larcom—a Memory"
-  },
-  {
-    "tag": "hr",
-    "innerHtml": ""
-  },
-  {
-    "tag": "h3",
-    "innerHtml": "By Mary Larcom Dow"
+    "innerHtml": "Lucy Larcom—a Memory By Mary Larcom Dow"
   },
   {
     "tag": "hr",
@@ -929,7 +913,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "S. E. M."
+    "innerHtml": "—S. E. M."
   },
   {
     "tag": "h3",
@@ -940,8 +924,8 @@
     "innerHtml": ""
   },
   {
-    "tag": "p",
-    "innerHtml": "<em>From Mrs. Cora Haynes Crosby</em>:"
+    "tag": "h5",
+    "innerHtml": "From Mrs. Cora Haynes Crosby:"
   },
   {
     "tag": "p",
@@ -956,8 +940,8 @@
     "innerHtml": "That happy outlook on life, her love of everything beautiful and fine in nature, books and people, made her an inspiration to all who knew her.”"
   },
   {
-    "tag": "p",
-    "innerHtml": "<em>From a letter by Mrs. Margaret Haynes Pratt</em>:"
+    "tag": "h5",
+    "innerHtml": "From A Letter By Mrs. Margaret Haynes Pratt:"
   },
   {
     "tag": "p",
