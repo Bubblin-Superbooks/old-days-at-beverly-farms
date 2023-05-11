@@ -9,13 +9,12 @@
     "JS": "js",
     "HEAD": "html"
   },
-  "cover": {
-    "punchline": "Delightful “Old Days” of The Nineteenth Century.",
-    "toc": "",
-    "author_detail": "",
-    "colophon": "",
-    "synopsis": ""
-  },
+  "punchline": "Delightful “Old Days” of The Nineteenth Century.",
+  "table_of_contents": "",
+  "author_detail": "",
+  "colophon": "",
+  "summary": "",
+  "language": "en",  
   "status": "published",
   "asset_url": "https://raw.githubusercontent.com/marvindanig/old-days-at-beverly-farms/master/assets",
   "book_id": 1409,
